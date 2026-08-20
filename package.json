@@ -1,0 +1,34 @@
+{
+  "name": "i-ching-three-coin-casting",
+  "version": "1.0.0",
+  "description": "A transparent, testable three-coin I Ching casting specification and zero-dependency JavaScript reference implementation.",
+  "type": "module",
+  "main": "src/three-coin.js",
+  "exports": "./src/three-coin.js",
+  "files": [
+    "src",
+    "SPEC.md",
+    "README.md",
+    "LICENSE",
+    "LICENSE-DOCS"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "i-ching",
+    "yijing",
+    "three-coin-method",
+    "hexagram",
+    "casting"
+  ],
+  "license": "MIT",
+  "homepage": "https://ichingreflection.com/how-to-cast/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aoyi21/i-ching-three-coin-casting.git"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
